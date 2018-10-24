@@ -1,0 +1,34 @@
+.rendering-tool-container {
+    width: 100%;
+    max-width: 314px;
+    display: inline-block;
+    border: 1px solid #1d7395;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+    .rendering-tool-container .left-thumbnail {
+        max-width: 158px;
+    }
+
+
+    .rendering-tool-container .right-help-text {
+        display: inline-block;
+        max-width: 150px;
+        margin-top: 8px;
+        height: 130px;
+        overflow-y: auto;
+    }
+.rendering-tool-container span.short-help-text {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.rendering-tool-container span.long-help-text {
+    display: block;
+    margin-bottom: 5px;
+}
+.rendering-tool-container a.help-link {
+    color: #1d7395;
+}
